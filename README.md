@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Web Rendering Techniques Demo
 
-## Getting Started
+> Next.js를 활용한 웹 렌더링 방식 비교 및 시연 프로젝트
 
-First, run the development server:
+## 🔗 Links
+- **Demo Site**: https://tech-seminar-web-rendering.vercel.app/
+- **Presentation**: https://www.canva.com/design/DAGt4KxLWPA/-bPoO9yppmY0Hx7gfYbqig/edit?utm_content=DAGt4KxLWPA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📋 Project Overview
+이 프로젝트는 CSR, SSR, SSG, ISR 네 가지 웹 렌더링 방식을 실제로 구현하고 비교 분석한 기술 세미나 자료입니다.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Tech Stack
+- Next.js 14
+- React
+- Vercel (배포)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 💡 Key Learnings
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 성과
+- 실제 구현을 통한 렌더링 방식별 차이점 시각화
+- ISR(Incremental Static Regeneration) 개념 학습 및 적용
+- 각 렌더링 방식의 장단점 체계적 정리
 
-## Learn More
+### 개선점
+- ISR에 대한 더 깊이 있는 기술적 설명 필요
+- 구현 코드에 대한 상세 설명 부족
+- 시각적 구분을 위한 UI/UX 개선 필요
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📚 Resources
+- [상세 기술 문서](./docs/technical-details.md)
+- [발표 피드백 정리](./docs/feedback-summary.md)
+- [개인 회고](./docs/retrospective.md)
