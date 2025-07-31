@@ -1,5 +1,7 @@
 # ISR (Incremental Static Regeneration) 상세 설명
 
+![ISR](https://blog.kakaocdn.net/dna/bApTpt/btrPRd3X5nX/AAAAAAAAAAAAAAAAAAAAAI-0wUSgs6GBRSruPR9T1UJt3ucCNR7sBaxvCcZac3ys/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1753973999&allow_ip=&allow_referer=&signature=g8YmgQgVneke8KJZJVv87qZ%2BD0M%3D)
+
 ## 정의 
 ISR은 SSG의 성능 이점과 동적 콘텐츠 업데이트의 유연성을 결합한 하이브리드 웹 렌더링 전략이다. 콘텐츠가 변경될 때 전체 사이트를 재구축하는 대신, ISR을 사용하면 개별 페이지를 백그라운드에서 필요에 따라 재생성하는 동시에 캐시된 정적 버전을 사용자에게 즉시 제공할 수 있다. 이 "stale-while-revalidate" 방식은 사용자에게 항상 빠른 로딩 속도의 페이지를 제공하지만, 콘텐츠는 구성할 수 있는 재검증 간격 또는 트리거에 따라 자동으로 업데이트될 수 있음을 의미한다. 2020년 Next.js를 통해 처음 대중화된 ISR은 정적 성능과 동적 최신성 간의 전통적인 상충 관계를 해결하여 콘텐츠가 자주 변경되지만, 빠른 로딩 시간이 중요한 전자상거래 플랫폼, 블로그, 뉴스 사이트와 같은 사이트가 이상적이다.
 
