@@ -1,20 +1,39 @@
-# Web Rendering Techniques Demo
+# 웹 렌더링 역사와 흐름
 
 > Next.js를 활용한 웹 렌더링 방식 비교 및 시연 프로젝트
 
-## 🔗 Links
-- **Demo Site**: https://tech-seminar-web-rendering.vercel.app/
-- **Presentation**: https://www.canva.com/design/DAGt4KxLWPA/-bPoO9yppmY0Hx7gfYbqig/edit?utm_content=DAGt4KxLWPA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+![PAGE](image.png)
 
-## 📋 Project Overview
+## 🔗 링크
+- **Demo Site**: https://tech-seminar-web-rendering.vercel.app/
+- **Presentation**: [발표 자료 보기](https://www.canva.com/design/DAGt4KxLWPA/view)
+
+## 📋 개요
 이 프로젝트는 CSR, SSR, SSG, ISR 네 가지 웹 렌더링 방식을 실제로 구현하고 비교 분석한 기술 세미나 자료입니다.
 
-## 🚀 Tech Stack
-- Next.js 14
-- React
-- Vercel (배포)
+## 🚀 시작하기
 
-## 💡 Key Learnings
+First, run the development server:
+
+```bash
+# 개발 서버 실행
+npm run dev
+
+# 브라우저에서 http://localhost:3000 접속
+```
+
+##  기술 스택
+- Next.js 15
+- React
+- Vercel
+
+## 🔍 구현된 렌더링 방식
+- **CSR** (Client-Side Rendering)
+- **SSR** (Server-Side Rendering) 
+- **SSG** (Static Site Generation)
+- **ISR** (Incremental Static Regeneration)
+
+## 💡 학습 내용
 
 ### 성과
 - 실제 구현을 통한 렌더링 방식별 차이점 시각화
