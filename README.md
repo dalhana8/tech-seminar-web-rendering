@@ -5,15 +5,13 @@
 ![PAGE](image.png)
 
 ## 🔗 링크
-- **Demo Site**: https://tech-seminar-web-rendering.vercel.app/
+- **Demo Site**: [사이트 보기](https://tech-seminar-web-rendering.vercel.app/)
 - **Presentation**: [발표 자료 보기](https://www.canva.com/design/DAGt4KxLWPA/view)
 
 ## 📋 개요
 이 프로젝트는 CSR, SSR, SSG, ISR 네 가지 웹 렌더링 방식을 실제로 구현하고 비교 분석한 기술 세미나 자료입니다.
 
 ## 🚀 시작하기
-
-First, run the development server:
 
 ```bash
 # 개발 서버 실행
@@ -22,10 +20,10 @@ npm run dev
 # 브라우저에서 http://localhost:3000 접속
 ```
 
-##  기술 스택
-- Next.js 15
-- React
-- Vercel
+## 🛠️ 기술 스택
+- 🖥️ Next.js 15
+- ⚛️ React
+- ☁️ Vercel
 
 ## 🔍 구현된 렌더링 방식
 - **CSR** (Client-Side Rendering)
