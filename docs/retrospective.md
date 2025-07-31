@@ -23,18 +23,26 @@
 ### 주요 피드백 패턴
 
 - **시각적 구분의 필요성**: "어느 부분이 CSR/SSR인지 구분이 어렵다"
+
 **개선 전**
 ![alt text](image.png)
+
 **개선 후**
 ![alt text](image-4.png)
+
 - **증거 기반 설명 부족**: "왜 그 기법을 사용하는지 근거가 필요하다"
+
 **개선 전**
 ![alt text](image-1.png)
+
 **개선 후**
 ![alt text](image-3.png)
+
 - **코드 설명 부족**: "구현 방식에 대한 자세한 설명이 없다"
+
 **개선 전**
 ![alt text](image-2.png)
+
 **개선 후**
 ![alt text](image-5.png)
 
