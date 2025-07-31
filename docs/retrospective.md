@@ -23,14 +23,20 @@
 ### 주요 피드백 패턴
 
 - **시각적 구분의 필요성**: "어느 부분이 CSR/SSR인지 구분이 어렵다"
-개선 전![alt text](image.png)
-개선 후![alt text](image-4.png)
+**개선 전**
+![alt text](image.png)
+**개선 후**
+![alt text](image-4.png)
 - **증거 기반 설명 부족**: "왜 그 기법을 사용하는지 근거가 필요하다"
-개선 전![alt text](image-1.png)
-개선 후![alt text](image-3.png)
+**개선 전**
+![alt text](image-1.png)
+**개선 후**
+![alt text](image-3.png)
 - **코드 설명 부족**: "구현 방식에 대한 자세한 설명이 없다"
-개선 전![alt text](image-2.png)
-개선 후![alt text](image-5.png)
+**개선 전**
+![alt text](image-2.png)
+**개선 후**
+![alt text](image-5.png)
 
 ### 내가 놓친 관점들
 자료조사를 하면서 찾은 대표 페이지들의 근거들을 찾아 놓았지만, PPT 내용과 발표 내용에서는 그냥 소개하는 정도로 넘어간 것이 문제가 되었다. **넣었다면 좀 더 자세히 설명할 필요성이 있었던 것 같다.**

@@ -1,4 +1,4 @@
-export const revalidate = 10;
+export const revalidate = 30; //30초마다 자동으로 페이지를 재생성하도록 설정
 
 import Link from "next/link";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -22,13 +22,13 @@ function getRandomItems(arr, n) {
 }
 
 export default async function ISRPage() {
-    const res = await fetch("https://jsonplaceholder.typicode.com/comments", {
-        cache: "force-cache",
-        next: { revalidate: 30 },
-    });
-    const data = await res.json();
-    const random = getRandomItems(data, 5);
-    const renderTime = getKoreanDateTimeString();
+   const res = await fetch("https://jsonplaceholder.typicode.com/comments", {
+       cache: "force-cache", // 캐시된 데이터 사용 (성능 최적화)
+       next: { revalidate: 30 }, // 30초 간격으로 재검증 (ISR 핵심 설정)
+   });
+   const data = await res.json(); // JSON 데이터로 변환
+   const random = getRandomItems(data, 5); // 댓글 목록에서 랜덤하게 5개 선택
+   const renderTime = getKoreanDateTimeString(); // 현재 시간을 한국 시간으로 기록 
 
     return (
         <div className="min-h-screen bg-gray-50 p-8">
